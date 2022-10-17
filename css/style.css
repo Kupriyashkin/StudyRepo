@@ -1,0 +1,113 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 15px;
+    color: #242222;
+    line-height: 1.4;
+    background-image: linear-gradient(#fff, #333);
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: overline;
+    text-transform: uppercase;
+    color: #242222;
+}
+
+.justify {
+    text-align: justify;
+    font-weight: normal;
+    font-style: italic;
+    text-indent: 20px;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+}
+
+.table {
+    width: 100%; /*заполнение страницы таблицей*/
+    border: 1px solid #000;
+    border-collapse: collapse; /*соединение стенок*/
+    table-layout: fixed; /*ширина ячеек*/
+}
+
+.table th {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: left;
+    color: blue;
+    background-color: #eee;
+}
+
+.table td {
+    padding: 5px 10px; /*верх/низ, лево/право*/
+    border: 1px solid #000; /*dashed, dotted*/
+}
+
+.table tfoot {
+    text-align: left;
+}
+ .text-red {
+    /*display:inline-block; смена вида элемента*/
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+ }
+
+ .content {
+    width: 300px;
+    /*margin-top: 50px;
+    margin-bottom: 50px;*/
+    margin-left: auto;
+    margin: auto;
+ }
+
+ /*Post*/
+ .post {
+    width: 700px;
+    height: 400px;
+    padding: 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid;
+    color: #eee;
+    /*background-color: #fff;
+    background-image: url("../img/babochka.jpg");
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+    background: #fff url("../img/babochka.jpg") no-repeat center;
+    background-size: cover; /*100% auto*/
+ }
+
+ .post-title {
+    margin: 0 0 20px 0;
+    color: blue;
+    text-decoration: overline;
+    text-align: center;
+
+ }
+
+ .post-text p {
+    margin: 0 0 10px 0;
+ }
+
+ /*gradient*/
+ .gradient {
+    margin: 0 auto;
+    width: 600;
+    height: 300px;
+
+    /*background-image: linear-gradient( to bottom, #fff 40%, #333);*/
+    background-image: radial-gradient(circle, #eee,#242222);
+ }
