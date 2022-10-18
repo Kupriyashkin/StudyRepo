@@ -30,5 +30,19 @@ nextPrime:
 }
 alert(n);
 }*/
-console.log('hello')//bygaga
+/*console.log('hello')//bygaga*/
+
+/*let number = 2;
+switch (number) {
+    case 0:
+        console.log('0');
+        break;
+    case 1:
+        console.log('1');
+        break;
+    case 2:
+        case 3: console.log("2 or 3");
+        break;
+    default: console.log(not found)
+}*/
 
