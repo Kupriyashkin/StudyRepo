@@ -65,3 +65,42 @@ console.log(min(5,6))*/
     return (age>18) ? true : confirm('?')
     return (age>18) || confirm('?')
 }*/
+
+
+//Function Expression
+
+/*let sayHi = function() {
+    alert("Hi");
+};*/
+
+/*let age = +promt("How old are you?",'')
+let welcome
+if (age<18) {
+    welcome = function() {
+        alert("Hi");
+    };
+} else {
+    welcome = function() {
+        alert("Good morning");
+    };
+}
+welcome()
+
+
+//стрелочные функции //Arrow Function
+
+/*let func = (arg1, arg2, argN) => expression;
+let funct = function(arg1, arg2, argN) {
+    return expression;
+}*/
+/*let sum = (a,b) => {
+    let result = a+b;
+    return result;
+};*/
+/*function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+}
+ask("Вы согласны?",
+() => console.log('Good'),
+() => console.log('Hmm...'));*/
