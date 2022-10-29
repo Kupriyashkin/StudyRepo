@@ -53,7 +53,7 @@ switch (number) {
     }
     return result;
 }
-console.log(pow(3,4))*/
+console.log(pow(3,10))*/
 
 /*function min(a,b) {
     if(a<b) {return a;}
