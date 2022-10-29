@@ -3,6 +3,7 @@ body {
     font-size: 15px;
     color: #242222;
     line-height: 1.4;
+    /*background-image: url(../img/babochka.jpg);*/
     background-image: linear-gradient(#fff, #333);
 }
 
